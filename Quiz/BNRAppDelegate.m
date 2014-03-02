@@ -7,14 +7,20 @@
 //
 
 #import "BNRAppDelegate.h"
+#import "BNRQuizViewController.h"
 
 @implementation BNRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    BNRQuizViewController *quizViewController = [[BNRQuizViewController alloc] init];
+	self.window.rootViewController = quizViewController;
+	
+	// Provided code from template
+	self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7D4ACC4F-BDD0-4377-8F79-966F2CB147E9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Quiz</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9F8447CD-3F90-47C4-A6B5-20508EBEC71E</key>
+		<string>ssh://github-ioser/ios-programming-4th-edition/Quiz.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Quiz.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9F8447CD-3F90-47C4-A6B5-20508EBEC71E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github-ioser/ios-programming-4th-edition/Quiz.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9F8447CD-3F90-47C4-A6B5-20508EBEC71E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9F8447CD-3F90-47C4-A6B5-20508EBEC71E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Quiz</string>
+		</dict>
+	</array>
+</dict>
+</plist>

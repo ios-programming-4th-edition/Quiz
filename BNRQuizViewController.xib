@@ -6,6 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BNRQuizViewController">
             <connections>
+                <outlet property="answerLabel" destination="ztV-M8-YYm" id="64P-R1-Q2W"/>
+                <outlet property="questionLabel" destination="uqF-qI-Rbi" id="58Q-ze-vUn"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -34,6 +36,9 @@
                     <state key="normal" title="Show Question">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="showQuestion:" destination="-1" eventType="touchUpInside" id="MXu-Af-JIO"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pb2-YA-Tf6">
                     <rect key="frame" x="20" y="384" width="280" height="30"/>
@@ -42,6 +47,9 @@
                     <state key="normal" title="Show Answer">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="showAnswer:" destination="-1" eventType="touchUpInside" id="xU9-YO-IhJ"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
